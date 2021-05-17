@@ -1,7 +1,7 @@
 ﻿
 namespace Calculator_Test
 {
-    partial class Form1
+    partial class calculatorForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Calculator_Test
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(calculatorForm));
             this.oneButton = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -240,7 +240,7 @@ namespace Calculator_Test
             this.clearButton.Text = "C";
             this.clearButton.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // calculatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -265,7 +265,7 @@ namespace Calculator_Test
             this.Controls.Add(this.button2);
             this.Controls.Add(this.oneButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "calculatorForm";
             this.Text = "Calculator";
             this.ResumeLayout(false);
 

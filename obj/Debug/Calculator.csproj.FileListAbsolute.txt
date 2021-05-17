@@ -1,0 +1,10 @@
+C:\Users\redpa\Documents\Projects\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\redpa\Documents\Projects\Calculator\obj\Debug\Calculator_Test.Properties.Resources.resources
+C:\Users\redpa\Documents\Projects\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\redpa\Documents\Projects\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\redpa\Documents\Projects\Calculator\bin\Debug\Calculator Test.exe.config
+C:\Users\redpa\Documents\Projects\Calculator\bin\Debug\Calculator Test.exe
+C:\Users\redpa\Documents\Projects\Calculator\bin\Debug\Calculator Test.pdb
+C:\Users\redpa\Documents\Projects\Calculator\obj\Debug\Calculator_Test.calculatorForm.resources
+C:\Users\redpa\Documents\Projects\Calculator\obj\Debug\Calculator Test.exe
+C:\Users\redpa\Documents\Projects\Calculator\obj\Debug\Calculator Test.pdb
