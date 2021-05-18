@@ -11,3 +11,4 @@ C:\Users\redpa\Documents\Projects\Calculator\obj\Debug\Calculator.exe.manifest
 C:\Users\redpa\Documents\Projects\Calculator\obj\Debug\Calculator.application
 C:\Users\redpa\Documents\Projects\Calculator\obj\Debug\Calculator.exe
 C:\Users\redpa\Documents\Projects\Calculator\obj\Debug\Calculator.pdb
+C:\Users\redpa\Documents\Projects\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
