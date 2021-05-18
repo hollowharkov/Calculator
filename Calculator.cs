@@ -12,13 +12,14 @@ namespace Calculator_Test
 {
     public partial class calculatorForm : Form
     {
-
+        //declare variables
         string inputOne = "";
         string inputTwo = "";
         char operation;
         double output = 0.0;
         string userInput = "";
-        double firstNum, secondNum;
+        double firstNum = 0.0;
+        double secondNum = 0.0;
 
 
 
@@ -27,7 +28,7 @@ namespace Calculator_Test
         {
             InitializeComponent();
         }
-
+        //calculator buttons
         private void buttonDelete_Click(object sender, EventArgs e)
         {
             if (userInput.Length > 0 && userInput.Length - 1 > 0)
@@ -146,7 +147,7 @@ namespace Calculator_Test
             inputOne = userInput;
             userInput = "";
         }
-
+        //resets all variables to clear calculator
         private void buttonClear_Click(object sender, EventArgs e)
         {
            
@@ -156,11 +157,14 @@ namespace Calculator_Test
             calculatorDisplay.Text = "0";
 
         }
+        /*checks for operation, stores firstNum and secondNum as inputOne and inputTwo after coverting both to doubles,
+        then completes the operation, converts output to string and sets calculatorDisplay to output*/
         private void buttonEquals_Click(object sender, EventArgs e)
         {
             inputTwo = userInput;
             firstNum = Convert.ToDouble(inputOne);
             secondNum = Convert.ToDouble(inputTwo);
+            
             if (operation == '+')
             {
                 output = firstNum + secondNum;
